@@ -1,0 +1,88 @@
+h1 {
+    text-align: center;
+    color: red;
+    background-color: gray;
+}
+
+#para3 {
+    color: green;
+}
+
+p {
+    font-size: 20px;
+}
+
+html,body{
+    background-color: gray;
+}
+}
+
+
+.form {
+    color: yellow;
+}
+div p{
+    color: green; 
+}
+section{
+    background-color: blue;
+}
+/*section div p{
+    background-color: blue;
+}*/
+section div p:first-child 
+{
+    color: green; 
+}
+/*button{
+    background-color: blueviolet;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    width: 100px;
+    height: 20px;
+    border-radius: 15px;
+
+}*/
+.wrap{
+
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
+
+
+
+
+
+.button{
+    width: 140px;
+    height: 45px;
+    font-family: 'Robot',sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+
+
+}
+.button:hover{
+    background-color: #222222;
+}
+
+
+
